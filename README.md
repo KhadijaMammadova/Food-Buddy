@@ -32,7 +32,6 @@ Team-404
 
 - Ev dışında yemek yemeyi tercih eden insanlar 
 - Yemek severler
-- 
 - 15 - 50 yaş arası kullanıcılar
 
 ## Product Backlog URL
