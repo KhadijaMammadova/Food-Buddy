@@ -74,7 +74,7 @@ class _LoginPageState extends State<LoginScreen> {
                     child: TextField(
                       controller: _emailController,
                       onChanged: (value) {},
-                      cursorColor: Colors.black,
+                      cursorColor: Colors.white,
                       decoration: InputDecoration(
                         icon: Icon(
                           Icons.email_rounded,
