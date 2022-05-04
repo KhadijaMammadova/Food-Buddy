@@ -1,4 +1,4 @@
-# food_buddy
+# FoodBuddy
 
 A new Flutter project.
 
