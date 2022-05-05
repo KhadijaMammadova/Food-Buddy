@@ -23,14 +23,15 @@ Team-404
 ## Ürün Özellikleri
 
 - Mesajlaşma
-- İnsanların ilgi alanlarına göre birbirini bulması 
 - Uygun restoran,kafe vb. mekanları gösterme
 - Kafe ve restoran puanlarını gösterme
-- Uygulama içi aktifliği gösterme
+
 
 ## Hedef Kitle
 
-- Ev dışında yemek yemeyi tercih eden insanlar 
+- Ev dışında yemek yemeyi tercih edenler
+- Seyahat ettikleri ülkede yeni lezzetleri keşfederken o ülkelerde yeni arkadaşlar edinmek isteyen turistler
+- Yalnız olduğu için restoranlara kabul edilmeyenler
 - Yemek severler
 - 15 - 50 yaş arası kullanıcılar
 
