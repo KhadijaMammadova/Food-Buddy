@@ -80,11 +80,13 @@ Alınan Kararlar:
 Bu sprintte fikir bulma aşaması, proje detayları/içeriği ve UX design bir hafta sürdüğü için ilk sprint backlogunda eklediğimi/yapmayı planladığımız chat, lokasyon seçme ve giriş sayfalarını çalışmalarını bir sonraki sprinte aktarma kararı aldık. Proje yönetimi araçlarının kullanımını ve faydasını bu sprintte daha iyi anladığımız için ikinci sprintte ve daha sonrasında bu araçların kullanımına daha çok dikkat edeceğiz ve önemseyeceğiz. Uygulama sayfalarının kodlama sırası fonksiyonların basit olanından zor olana doğru gidecek şekilde planlanmıştır.
 
 **Sprint Retrospective**:
+
 Görev dağılımının ve zaman yönetiminin iyileştirilmesine yönelik kararlar verildi.
 Daily Scrum için hergün kısa meetler yapılacak ve çıktılar sunulacak.
 Clickup veya Asanada hafta başında beraberce belirlenen görevler kişilere atanacak ve deadline`lar belirlenecek.
 Belirlenen deadline`da görevlerin yapılıp yapılmadığını ölçmek için çıktılar sunulacak ve takım performansı ölçülecek.
 User storyler, product backlog sprint başında yapılan takım toplantısında ayrıntılı şekilde hazırlanacak. 
+
 User storyler, ux ve ui detaylı şekilde hazırlanıp developer takımına teslim edilecek.
 ---
 
