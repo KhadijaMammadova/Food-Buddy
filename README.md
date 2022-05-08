@@ -54,8 +54,8 @@ Team-404
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının daha hızlı ve kolay ilerlemesi açısından Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği  jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
-- 
- -[Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1I4u6w5_NKyDebWGJekZMCFaj-Uv7JPVP/view?usp=sharing)
+
+ - [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1I4u6w5_NKyDebWGJekZMCFaj-Uv7JPVP/view?usp=sharing)
 
 - **Sprint board update**: Sprint board screenshotları: 
 
