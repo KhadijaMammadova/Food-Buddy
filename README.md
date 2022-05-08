@@ -69,13 +69,15 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![image](https://user-images.githubusercontent.com/48837914/167315829-66f7c1a7-8313-43cf-bf87-36474685ec58.png)
 
 
-**Sprint Review**: -Sprint Review Katılımcıları
+**Sprint Review**: 
+ -Sprint Review Katılımcıları
 
 -Khadija Mammadova
 -Fatıma Büşra Bozdoğan
 -Mehmet Akif Arıcan
 
-**Alınan Kararlar**: Bu sprintte fikir bulma aşaması, proje detayları/içeriği ve UX design bir hafta sürdüğü için ilk sprint backlogunda eklediğimi/yapmayı planladığımız chat, lokasyon seçme ve giriş sayfalarını çalışmalarını bir sonraki sprinte aktarma kararı aldık. Proje yönetimi araçlarının kullanımını ve faydasını bu sprintte daha iyi anladığımız için ikinci sprintte ve daha sonrasında bu araçların kullanımına daha çok dikkat edeceğiz ve önemseyeceğiz. Uygulama sayfalarının kodlama sırası fonksiyonların basit olanından zor olana doğru gidecek şekilde planlanmıştır.
+Alınan Kararlar: 
+Bu sprintte fikir bulma aşaması, proje detayları/içeriği ve UX design bir hafta sürdüğü için ilk sprint backlogunda eklediğimi/yapmayı planladığımız chat, lokasyon seçme ve giriş sayfalarını çalışmalarını bir sonraki sprinte aktarma kararı aldık. Proje yönetimi araçlarının kullanımını ve faydasını bu sprintte daha iyi anladığımız için ikinci sprintte ve daha sonrasında bu araçların kullanımına daha çok dikkat edeceğiz ve önemseyeceğiz. Uygulama sayfalarının kodlama sırası fonksiyonların basit olanından zor olana doğru gidecek şekilde planlanmıştır.
 
 ---
 
