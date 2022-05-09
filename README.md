@@ -83,6 +83,7 @@ Bu sprintte fikir bulma aşaması, proje detayları/içeriği ve UX design bir h
 **Sprint Retrospective**:
 
 Görev dağılımının ve zaman yönetiminin iyileştirilmesine yönelik kararlar verildi.
+Daily Scrum toplantıları için farklı bir platform kullanılacaktır
 Daily Scrum için hergün kısa meetler yapılacak ve çıktılar sunulacak.
 Clickup veya Asanada hafta başında beraberce belirlenen görevler kişilere atanacak ve deadline'lar belirlenecek.
 Belirlenen deadline'da görevlerin yapılıp yapılmadığını ölçmek için çıktılar sunulacak ve takım performansı ölçülecek.
