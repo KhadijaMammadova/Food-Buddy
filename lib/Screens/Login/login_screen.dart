@@ -1,15 +1,15 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:food_buddy/Screens/Homepage/home_page.dart';
 import 'package:food_buddy/Screens/Homepage/home_page.dart';
 import 'package:food_buddy/Screens/Signup/components/or_divider.dart';
 import 'package:food_buddy/Screens/Signup/signup_screen.dart';
 import 'package:food_buddy/Service/auth.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
 import '../../constants.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class LoginScreen extends StatefulWidget {
+  
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -17,8 +17,8 @@ class LoginScreen extends StatefulWidget {
 class _LoginPageState extends State<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-
   AuthService _authService = AuthService();
+  bool loading = false;
 
   @override
   Widget build(BuildContext context) {
@@ -96,7 +96,9 @@ class _LoginPageState extends State<LoginScreen> {
                     ),
                     child: TextField(
                       controller: _passwordController,
+                      obscureText: true,
                       onChanged: (value) {},
+                      keyboardType: TextInputType.emailAddress,
                       cursorColor: Colors.white,
                       decoration: InputDecoration(
                         icon: Icon(
@@ -109,37 +111,56 @@ class _LoginPageState extends State<LoginScreen> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin: EdgeInsets.symmetric(vertical: 10),
-                    width: size.width * 0.8,
-                    child: ClipRRect(
-                        borderRadius: BorderRadius.circular(29),
-                        child: ElevatedButton(
-                          child: Text(
-                            'GİRİŞ YAP',
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          onPressed: () {
-                            _authService
-                                .signIn(_emailController.text,
-                                    _passwordController.text)
-                                .then((value) {
-                              return Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => HomePage()));
-                            });
-                          },
-                          style: ElevatedButton.styleFrom(
-                              primary: kPrimaryColor,
-                              padding: EdgeInsets.symmetric(
-                                  horizontal: 40, vertical: 20),
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.w500)),
-                        )),
-                  ),
+                  loading
+                      ? CircularProgressIndicator(
+                          color: kPrimaryColor,
+                        )
+                      : Container(
+                          margin: EdgeInsets.symmetric(vertical: 10),
+                          width: size.width * 0.8,
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(29),
+                              child: ElevatedButton(
+                                child: Text(
+                                  'GİRİŞ YAP',
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                onPressed: () async {
+                                  setState(() {
+                                    loading = true;
+                                  });
+                                  if (_emailController.text == "" ||
+                                      _passwordController.text == "") {
+                                    ScaffoldMessenger.of(context)
+                                        .showSnackBar(SnackBar(
+                                      content: Text(
+                                          "Lütfen bütün boş alanları doldurunuz!"),
+                                      backgroundColor: Colors.grey[600],
+                                    ));
+                                  } else {
+                                    User? result = await AuthService().login(
+                                        _emailController.text,
+                                        _passwordController.text,
+                                        context);
+                                    if (result != null) {
+                                      print('Success');
+                                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => HomePage()), (route) => false);
+                                    }
+                                  }
+                                  setState(() {
+                                    loading = false;
+                                  });
+                                },
+                                style: ElevatedButton.styleFrom(
+                                    primary: kPrimaryColor,
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 40, vertical: 20),
+                                    textStyle: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 14,
+                                        fontWeight: FontWeight.w500)),
+                              )),
+                        ),
                   OrDivider(),
                   AlreadyHaveAnAccountCheck(
                     press: () {

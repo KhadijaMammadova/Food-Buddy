@@ -5,8 +5,22 @@ import 'package:food_buddy/components/already_have_an_account_acheck.dart';
 import '../../constants.dart';
 import 'components/or_divider.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:food_buddy/Service/auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-class SignUpScreen extends StatelessWidget {
+class SignUpScreen extends StatefulWidget {
+  @override
+  _SignUpScreen createState() => _SignUpScreen();
+}
+
+class _SignUpScreen extends State<SignUpScreen> {
+  final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  //final TextEditingController _confirmPasswordController = TextEditingController();
+  AuthService _authService = AuthService();
+  bool loading = false;
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -57,7 +71,7 @@ class SignUpScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(29),
                     ),
                     child: TextField(
-                      //controller: _emailController,
+                      controller: _nameController,
                       onChanged: (value) {},
                       cursorColor: Colors.white,
                       keyboardType: TextInputType.emailAddress,
@@ -81,6 +95,7 @@ class SignUpScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(29),
                     ),
                     child: TextField(
+                      controller: _emailController,
                       onChanged: (value) {},
                       cursorColor: Colors.white,
                       decoration: InputDecoration(
@@ -103,6 +118,8 @@ class SignUpScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(29),
                     ),
                     child: TextField(
+                      controller: _passwordController,
+                      obscureText: true,
                       onChanged: (value) {},
                       cursorColor: Colors.white,
                       decoration: InputDecoration(
@@ -116,36 +133,63 @@ class SignUpScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(
-                    margin: EdgeInsets.symmetric(vertical: 10),
-                    width: size.width * 0.8,
-                    child: ClipRRect(
-                        borderRadius: BorderRadius.circular(29),
-                        child: ElevatedButton(
-                          child: Text(
-                            'KAYDET',
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) {
-                                  return HomePage();
-                                },
+                  loading
+                      ? CircularProgressIndicator(color: kPrimaryColor,)
+                      : Container(
+                          margin: EdgeInsets.symmetric(vertical: 10),
+                          width: size.width * 0.8,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(29),
+                            child: ElevatedButton(
+                              onPressed: () async {
+                                setState(() {
+                                  loading = true;
+                                });
+                                if (_emailController.text == "" ||
+                                    _passwordController.text == "" ||
+                                    _nameController.text == "") {
+                                  ScaffoldMessenger.of(context)
+                                      .showSnackBar(SnackBar(
+                                    content: Text(
+                                        "Lütfen bütün boş alanları doldurunuz!"),
+                                    backgroundColor: Colors.grey[600],
+                                  ));
+                                  /*} else if (_passwordController.text !=
+                                _confirmPasswordController.text) {
+                              ScaffoldMessenger.of(context)
+                                  .showSnackBar(SnackBar(
+                                content: Text("Şifreler uyumlu değil"),
+                                backgroundColor: Colors.grey[600],
+                              ));*/
+                                } else {
+                                  User? result = await AuthService().register(
+                                      _emailController.text,
+                                      _passwordController.text,
+                                      _nameController.text,
+                                      context);
+                                  if (result != null) {
+                                    print('Success');
+                                    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => HomePage()), (route) => false);
+                                  }
+                                }
+                                setState(() {
+                                  loading = false;
+                                });
+                              },
+                              child: Text(
+                                'KAYDET',
+                                style: TextStyle(color: Colors.white),
                               ),
-                            );
-                          },
-                          style: ElevatedButton.styleFrom(
-                              primary: kPrimaryColor,
-                              padding: EdgeInsets.symmetric(
-                                  horizontal: 40, vertical: 20),
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.w500)),
-                        )),
-                  ),
+                              style: ElevatedButton.styleFrom(
+                                  primary: kPrimaryColor,
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal: 40, vertical: 20),
+                                  textStyle: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w500)),
+                            ),
+                          )),
                   OrDivider(),
                   AlreadyHaveAnAccountCheck(
                     login: false,
