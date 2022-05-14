@@ -94,6 +94,12 @@ User storyler, ux ve ui detaylı şekilde hazırlanıp developer takımına tesl
 
 # Sprint 2
 
+- **Sprint Başlangıç Toplantısı**: 
+- Login page ve sign up page in progress olarak güncellendi.
+- Login page ve signup page için Edge case/Error state sayfaları yapılacak.
+- Bu sprintte UI Tasarım , Splash Screen ve Intro Pages tamamlanmasına karar verildi.
+- UI tasarım tamamlandıktan sonra Intro Page lerin 3 sayfa olmasına ve 3 kişi arasında paylaşılmasına karar verildi.
+
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 80 Puan
