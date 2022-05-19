@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:food_buddy/Screens/Homepage/home_page.dart';
 import 'package:food_buddy/Screens/Signup/components/or_divider.dart';
 import 'package:food_buddy/Screens/Signup/signup_screen.dart';
 import 'package:food_buddy/Service/auth.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
 import '../../constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
+import '../Homepage/main_page.dart';
+
 
 class LoginScreen extends StatefulWidget {
   
@@ -144,7 +146,7 @@ class _LoginPageState extends State<LoginScreen> {
                                         context);
                                     if (result != null) {
                                       print('Success');
-                                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => HomePage()), (route) => false);
+                                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => MainPage()), (route) => false);
                                     }
                                   }
                                   setState(() {
