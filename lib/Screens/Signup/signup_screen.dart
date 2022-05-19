@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_buddy/Screens/Homepage/home_page.dart';
 import 'package:food_buddy/Screens/Login/login_screen.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
 import '../../constants.dart';
+import '../Homepage/main_page.dart';
 import 'components/or_divider.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:food_buddy/Service/auth.dart';
@@ -169,7 +169,7 @@ class _SignUpScreen extends State<SignUpScreen> {
                                       context);
                                   if (result != null) {
                                     print('Success');
-                                    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => HomePage()), (route) => false);
+                                    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => MainPage()), (route) => false);
                                   }
                                 }
                                 setState(() {
