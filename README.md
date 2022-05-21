@@ -124,7 +124,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 - **Ürün Durumu**: 
-
+- 
+![icon](https://user-images.githubusercontent.com/48837914/169671125-d3cf5497-fcd5-4ecb-9af9-1905f4286d27.PNG
+![onboarding 1](https://user-images.githubusercontent.com/48837914/169671138-d7419bf3-65c8-416f-aea4-d1d04f2d606a.PNG)
+![onboarding 2](https://user-images.githubusercontent.com/48837914/169671141-597091ab-e5b5-45b7-b902-97a8a6bb0a23.PNG)
+![onboarding 3](https://user-images.githubusercontent.com/48837914/169671143-60d7bc87-3c60-4ead-8f7b-324c74dcb757.PNG)
 ![WhatsApp Image 2022-05-19 at 17 34 09](https://user-images.githubusercontent.com/48837914/169669066-a32fedee-3f4a-4d52-8379-bba19c9fe27b.jpeg)
 ![WhatsApp Image 2022-05-19 at 23 02 44](https://user-images.githubusercontent.com/48837914/169669077-0ee5cdc1-0f24-4dd2-966e-67f8a998839c.jpeg)
 ![WhatsApp Image 2022-05-19 at 23 02 45 (1)](https://user-images.githubusercontent.com/48837914/169669080-1229551c-f371-4756-961a-2de5bf359765.jpeg)
