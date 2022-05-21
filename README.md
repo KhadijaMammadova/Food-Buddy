@@ -53,7 +53,7 @@ Team-404
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Miroda Daily Scrum tablosu üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
+- **Daily Scrum**: Daily Scrum toplantılarının farklı şehirlerde olmamızdan ve zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantıları pdf olarak Readme'de tarafımızdan paylaşılmaktadır:
 
  - [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1I4u6w5_NKyDebWGJekZMCFaj-Uv7JPVP/view?usp=sharing)
 
@@ -112,17 +112,23 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 - **Daily Scrum**: Daily Scrum toplantılarının WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 
- - [Sprint 1 Daily Scrum Chats]
+ - [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/10KKrWtX3fSAIoD89js1quEoY-v9yf2CZ/view?usp=sharing)
 
 - **Sprint board update**: Sprint board screenshotları: 
 
 ![Backlog 1](https://user-images.githubusercontent.com/48837914/167827317-70ea9c12-9251-4a9f-a1d4-a5969f76b041.png)
+![Backlog 2](https://user-images.githubusercontent.com/48837914/169668916-53706089-5af1-4814-82f3-6ac3eafa9f93.PNG)
+![Backlog 3](https://user-images.githubusercontent.com/48837914/169668918-7a69f99e-8f6e-4e6e-b0f7-cceb47b85bbe.PNG)
+![Backlog 4](https://user-images.githubusercontent.com/48837914/169668924-76725332-6ad1-4088-8e48-7ee6fb8462bf.PNG)
+![Backlog 5](https://user-images.githubusercontent.com/48837914/169668927-987ea189-e11d-490e-b31b-c37c3dd20aef.PNG)
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
-![image]
-![image]
-![image]
+- **Ürün Durumu**: 
+
+![WhatsApp Image 2022-05-19 at 17 34 09](https://user-images.githubusercontent.com/48837914/169669066-a32fedee-3f4a-4d52-8379-bba19c9fe27b.jpeg)
+![WhatsApp Image 2022-05-19 at 23 02 44](https://user-images.githubusercontent.com/48837914/169669077-0ee5cdc1-0f24-4dd2-966e-67f8a998839c.jpeg)
+![WhatsApp Image 2022-05-19 at 23 02 45 (1)](https://user-images.githubusercontent.com/48837914/169669080-1229551c-f371-4756-961a-2de5bf359765.jpeg)
+![WhatsApp Image 2022-05-19 at 23 02 45](https://user-images.githubusercontent.com/48837914/169669084-f2447c55-2cee-4403-894d-ea9466b4f938.jpeg)
 
 **Sprint Review**: 
  -
@@ -136,6 +142,3 @@ Alınan Kararlar:
 
 ---
 
-# Sprint 3
-
----
