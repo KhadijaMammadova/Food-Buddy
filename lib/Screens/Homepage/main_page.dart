@@ -67,12 +67,12 @@ class _MainPage extends State<MainPage> {
       bottomNavigationBar: CurvedNavigationBar(
         index: 1,
         key: _bottomNavigationKey,
-        height: 50.0,
+        height: 49.0,
         backgroundColor: Colors.white,
         color: kPrimaryColor,
-        animationCurve: Curves.easeInBack,
+        animationCurve: Curves.easeInCubic,
         animationDuration: Duration(milliseconds: 300),
-        items: pages.map((p) => Icon(p.iconData, size: 22, color: Colors.white,)).toList(),
+        items: pages.map((p) => Icon(p.iconData, size: 20, color: Colors.white,)).toList(),
         onTap: (index) {
           setState(() {
             _pageIndex = index;
