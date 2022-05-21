@@ -124,7 +124,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 - **Ürün Durumu**: 
-- 
+
 ![icon](https://user-images.githubusercontent.com/48837914/169671125-d3cf5497-fcd5-4ecb-9af9-1905f4286d27.PNG)
 ![onboarding 1](https://user-images.githubusercontent.com/48837914/169671138-d7419bf3-65c8-416f-aea4-d1d04f2d606a.PNG)
 ![onboarding 2](https://user-images.githubusercontent.com/48837914/169671141-597091ab-e5b5-45b7-b902-97a8a6bb0a23.PNG)
