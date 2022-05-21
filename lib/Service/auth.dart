@@ -43,12 +43,5 @@ class AuthService {
     } catch (e) {
       print(e);
     }
-
-    /*await _firestore
-        .collection("Person")
-        .doc(user.user!.uid)
-        .set({'userName': name, 'email': email});
-
-    return user.user;*/
   }
 }
