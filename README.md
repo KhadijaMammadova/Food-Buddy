@@ -114,8 +114,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
  - [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/10KKrWtX3fSAIoD89js1quEoY-v9yf2CZ/view?usp=sharing)
 
+
 - **Sprint 2 Burndown Chart**:
+
  ![Burndown](https://user-images.githubusercontent.com/48837914/169710580-e2db045e-325a-4176-aaa6-c6f5311fc83d.PNG)
+
 
 
 - **Sprint board update**: Sprint board screenshotları: 
