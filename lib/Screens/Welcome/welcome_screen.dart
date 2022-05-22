@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:food_buddy/Screens/Login/login_screen.dart';
 import 'package:food_buddy/Screens/Signup/signup_screen.dart';
-import '../../constants.dart';
+import '../../components/constants.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override

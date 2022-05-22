@@ -4,7 +4,7 @@ import 'package:food_buddy/Screens/Signup/components/or_divider.dart';
 import 'package:food_buddy/Screens/Signup/signup_screen.dart';
 import 'package:food_buddy/Service/auth.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
-import '../../constants.dart';
+import '../../components/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import '../Homepage/main_page.dart';
