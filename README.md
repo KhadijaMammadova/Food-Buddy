@@ -117,7 +117,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 - **Sprint 2 Burndown Chart**:
 
- ![Burndown](https://user-images.githubusercontent.com/48837914/169710580-e2db045e-325a-4176-aaa6-c6f5311fc83d.PNG)
+ ![Burndown](https://user-images.githubusercontent.com/48837914/169710648-de20fee1-816f-4999-bc02-442c1aa78aa2.PNG)
 
 
 
