@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/profile_page.dart';
 import 'package:food_buddy/Screens/Homepage/restourants_screen.dart';
 import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
-import '../../constants.dart';
+import '../../components/constants.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import '../Chat/chat_screen.dart';
 

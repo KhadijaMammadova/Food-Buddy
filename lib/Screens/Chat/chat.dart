@@ -4,7 +4,7 @@ import 'package:food_buddy/Screens/Chat/forth_page.dart';
 import 'package:food_buddy/Screens/Chat/second_page.dart';
 import 'package:food_buddy/Screens/Chat/third_page.dart';
 import 'package:food_buddy/Screens/Homepage/main_page.dart';
-import 'package:food_buddy/constants.dart';
+import 'package:food_buddy/components/constants.dart';
 
 class Chat extends StatefulWidget {
   const Chat({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Login/login_screen.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
-import '../../constants.dart';
+import '../../components/constants.dart';
 import '../Homepage/main_page.dart';
 import 'components/or_divider.dart';
 import 'package:flutter_svg/svg.dart';
