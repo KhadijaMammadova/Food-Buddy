@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
 import 'package:food_buddy/Service/auth.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'Screens/Homepage/main_page.dart';
 import 'Screens/Homepage/restourants_screen.dart';
 import 'components/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:food_buddy/Screens/Onboarding/onboarding_screen.dart';
 
+int? isViewed;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  isViewed = prefs.getInt('onboard');
   await Firebase.initializeApp();
   runApp(MyApp());
 }
@@ -34,7 +38,7 @@ class MyApp extends StatelessWidget {
           return WelcomeScreen();
         },
       ),*/
-      home: OnboardingScreen(),
+      home: isViewed != 0 ? OnboardingScreen() : WelcomeScreen(),
     );
   }
 }
