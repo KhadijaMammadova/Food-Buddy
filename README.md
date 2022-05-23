@@ -118,7 +118,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Sprint 2 Burndown Chart**:
  
 
- ![Burndown](https://user-images.githubusercontent.com/48837914/169710648-de20fee1-816f-4999-bc02-442c1aa78aa2.PNG)
+
+![sprint 2 burndown](https://user-images.githubusercontent.com/48837914/169868941-49140920-7e12-4355-adf3-431f8382bea4.PNG)
+
 
 
 
@@ -148,9 +150,31 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 Alınan Kararlar: 
 
+-Renkler güncellenecek
+-İllüstrasyonlar değişecek 
+-Font değiştirilecek
+-Giriş yap ve Kayıt ol sayfalarında giriş yap ve kayıt ol kısmı silinip butonlardaki yazılar güncellenecek
+-Homepage chat kısmı güncellenecek
+-Profil kısmı UI olarak düzenlenecek
+
+
 Sprint Review katılımcıları:
 
+-Hümeyra Nur Yılmaz
+-Khadija Mammadova
+-Fatıma Büşra Bozdoğan
+-Mehmet Akif Arıcan
+-Muhammed Yasin Akçay
+
+
 **Sprint Retrospective**:
+-Daily Scrum Chat lerin Whatsapp üzerinden devam edilecek 
+-Kod kısmı -Apı ve Restoran sayfası yapılacak
+-Map Profil Page a eklenecek
+-Message Screen kodları yazılacak
+-Home page e devam edilecek
+-Profile page eklenecek 
+-Tasarımda bazı değişiklikler yapılacak 
 
 
 
