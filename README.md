@@ -114,6 +114,14 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
  - [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/10KKrWtX3fSAIoD89js1quEoY-v9yf2CZ/view?usp=sharing)
 
+
+- **Sprint 2 Burndown Chart**:
+ 
+
+ ![Burndown](https://user-images.githubusercontent.com/48837914/169710648-de20fee1-816f-4999-bc02-442c1aa78aa2.PNG)
+
+
+
 - **Sprint board update**: Sprint board screenshotları: 
 
 ![Backlog 1](https://user-images.githubusercontent.com/48837914/167827317-70ea9c12-9251-4a9f-a1d4-a5969f76b041.png)
@@ -124,6 +132,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 - **Ürün Durumu**: 
+ 
 
 ![icon](https://user-images.githubusercontent.com/48837914/169671125-d3cf5497-fcd5-4ecb-9af9-1905f4286d27.PNG)
 ![onboarding 1](https://user-images.githubusercontent.com/48837914/169671138-d7419bf3-65c8-416f-aea4-d1d04f2d606a.PNG)
