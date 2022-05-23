@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Onboarding/size_config.dart';
 import 'package:food_buddy/Screens/Onboarding/onboarding_contents.dart';
 import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);
@@ -10,25 +11,32 @@ class OnboardingScreen extends StatefulWidget {
   State<OnboardingScreen> createState() => _OnboardingScreenState();
 }
 
-  class _OnboardingScreenState extends State<OnboardingScreen> {
+class _OnboardingScreenState extends State<OnboardingScreen> {
   final _controller = PageController();
   int _currentPage = 0;
-  List colors =[Color(0xffF4B571), Color(0xffFF94A0), Color(0xffA375CE)];
+  List colors = [Color(0xffF4B571), Color(0xffFF94A0), Color(0xffA375CE)];
 
-  AnimatedContainer _buildDots({int? index})  {
+  AnimatedContainer _buildDots({int? index}) {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 200),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(
           Radius.circular(50),
         ),
-    color: const Color(0xFF000000),
+        color: const Color(0xFF000000),
       ),
-    margin: const EdgeInsets.only(right: 5),
-    height: 10,
-    curve: Curves.easeIn,
-    width: _currentPage == index ? 20 : 10,
+      margin: const EdgeInsets.only(right: 5),
+      height: 10,
+      curve: Curves.easeIn,
+      width: _currentPage == index ? 20 : 10,
     );
+  }
+
+  _storeOnboardInfo() async {
+    int isViewed = 0;
+    var sharedPreferences = await SharedPreferences.getInstance();
+    SharedPreferences prefs = sharedPreferences;
+    await prefs.setInt('onboard', isViewed);
   }
 
   @override
@@ -58,7 +66,8 @@ class OnboardingScreen extends StatefulWidget {
                       child: Column(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 45.0, right: 20.0 ),
+                            padding:
+                                const EdgeInsets.only(left: 45.0, right: 20.0),
                             child: Image.asset(
                               contents[i].image,
                               height: SizeConfig.blockV! * 30,
@@ -104,84 +113,88 @@ class OnboardingScreen extends StatefulWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(
                       contents.length,
-                          (int index) => _buildDots(index: index),
+                      (int index) => _buildDots(index: index),
                     ),
                   ),
                   _currentPage + 1 == contents.length
                       ? Padding(
-                    padding: const EdgeInsets.all(30),
-                    child: ElevatedButton(
-                      onPressed: () {Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) {
-                                  return WelcomeScreen();
-                                },
+                          padding: const EdgeInsets.all(30),
+                          child: ElevatedButton(
+                            onPressed: () async {
+                             await _storeOnboardInfo();
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return WelcomeScreen();
+                                  },
+                                ),
+                              );
+                            },
+                            child: Text("BAŞLAT"),
+                            style: ElevatedButton.styleFrom(
+                              primary: Colors.black,
+                              shape: new RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(50),
                               ),
-                            );},
-                      child: Text("BAŞLAT"),
-                      style: ElevatedButton.styleFrom(
-                        primary: Colors.black,
-                        shape: new RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        padding: (width <= 550)
-                            ? EdgeInsets.symmetric(
-                            horizontal: 100, vertical: 20)
-                            : EdgeInsets.symmetric(
-                            horizontal: width * 0.2, vertical: 25),
-                        textStyle:
-                        TextStyle(fontSize: (width <= 550) ? 13 : 17),
-                      ),
-                    ),
-                  )
+                              padding: (width <= 550)
+                                  ? EdgeInsets.symmetric(
+                                      horizontal: 100, vertical: 20)
+                                  : EdgeInsets.symmetric(
+                                      horizontal: width * 0.2, vertical: 25),
+                              textStyle:
+                                  TextStyle(fontSize: (width <= 550) ? 13 : 17),
+                            ),
+                          ),
+                        )
                       : Padding(
-                    padding: const EdgeInsets.all(30),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        TextButton(
-                          onPressed: () {
-                            _controller.jumpToPage(2);
-                          },
-                          child: Text(
-                            "ATLA",
-                            style: TextStyle(color: Colors.black),
+                          padding: const EdgeInsets.all(30),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              TextButton(
+                                onPressed: () {
+                                  _controller.jumpToPage(2);
+                                },
+                                child: Text(
+                                  "ATLA",
+                                  style: TextStyle(color: Colors.black),
+                                ),
+                                style: TextButton.styleFrom(
+                                  elevation: 0,
+                                  textStyle: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: (width <= 550) ? 13 : 17,
+                                  ),
+                                ),
+                              ),
+                              ElevatedButton(
+                                onPressed: () async {
+                                  await _storeOnboardInfo();
+                                  _controller.nextPage(
+                                    duration: Duration(milliseconds: 200),
+                                    curve: Curves.easeIn,
+                                  );
+                                },
+                                child: Text("İLERİ"),
+                                style: ElevatedButton.styleFrom(
+                                  primary: Colors.black,
+                                  shape: new RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50),
+                                  ),
+                                  elevation: 0,
+                                  padding: (width <= 550)
+                                      ? EdgeInsets.symmetric(
+                                          horizontal: 30, vertical: 20)
+                                      : EdgeInsets.symmetric(
+                                          horizontal: 30, vertical: 25),
+                                  textStyle: TextStyle(
+                                      fontSize: (width <= 550) ? 13 : 17),
+                                ),
+                              ),
+                            ],
                           ),
-                          style: TextButton.styleFrom(
-                            elevation: 0,
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: (width <= 550) ? 13 : 17,
-                            ),
-                          ),
-                        ),
-                        ElevatedButton(
-                          onPressed: () {
-                            _controller.nextPage(
-                              duration: Duration(milliseconds: 200),
-                              curve: Curves.easeIn,
-                            );
-                          },
-                          child: Text("İLERİ"),
-                          style: ElevatedButton.styleFrom(
-                            primary: Colors.black,
-                            shape: new RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(50),
-                            ),
-                            elevation: 0,
-                            padding: (width <= 550)
-                                ? EdgeInsets.symmetric(
-                                horizontal: 30, vertical: 20)
-                                : EdgeInsets.symmetric(
-                                horizontal: 30, vertical: 25),
-                            textStyle: TextStyle(
-                                fontSize: (width <= 550) ? 13 : 17),
-                          ),
-                        ),
-                       ],
-                      ),
-                  )
+                        )
                 ],
               ),
             ),

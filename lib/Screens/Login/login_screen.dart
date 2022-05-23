@@ -9,9 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import '../Homepage/main_page.dart';
 
-
 class LoginScreen extends StatefulWidget {
-  
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -47,7 +45,7 @@ class _LoginPageState extends State<LoginScreen> {
               child: Image.asset(
                 "assets/images/login_bottom.png",
                 width: size.width * 0.4,
-                color: kPrimaryLightColor,
+                color: Color.fromARGB(255, 201, 173, 206),
               ),
             ),
             SingleChildScrollView(
@@ -146,7 +144,11 @@ class _LoginPageState extends State<LoginScreen> {
                                         context);
                                     if (result != null) {
                                       print('Success');
-                                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => MainPage()), (route) => false);
+                                      Navigator.pushAndRemoveUntil(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) => MainPage()),
+                                          (route) => false);
                                     }
                                   }
                                   setState(() {

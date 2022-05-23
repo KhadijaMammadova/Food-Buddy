@@ -54,7 +54,7 @@ class _MainPage extends State<MainPage> {
                         Navigator.pushAndRemoveUntil(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => OnboardingScreen()),
+                                builder: (context) => WelcomeScreen()),
                             (route) => false);
                       },
                       icon: Icon(Icons.logout),
