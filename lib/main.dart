@@ -5,6 +5,7 @@ import 'Screens/Homepage/main_page.dart';
 import 'Screens/Homepage/restourants_screen.dart';
 import 'components/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:food_buddy/Screens/Onboarding/onboarding_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: StreamBuilder(
+      /*home: StreamBuilder(
         stream: AuthService().firebaseAuth.authStateChanges(),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
           }
           return WelcomeScreen();
         },
-      ),
+      ),*/
+      home: OnboardingScreen(),
     );
   }
 }
