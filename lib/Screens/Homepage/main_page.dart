@@ -48,7 +48,7 @@ class _MainPage extends State<MainPage> {
                 foregroundColor: Colors.white,
                 actions: [
                   Padding(
-                    padding: const EdgeInsets.only(right: 16),
+                    padding: const EdgeInsets.only(right: 0),
                     child: TextButton.icon(
                       onPressed: () {
                         Navigator.pushAndRemoveUntil(
