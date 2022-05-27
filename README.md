@@ -118,7 +118,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Sprint 2 Burndown Chart**:
  
 
- ![Burndown](https://user-images.githubusercontent.com/48837914/169710648-de20fee1-816f-4999-bc02-442c1aa78aa2.PNG)
+
+![sprint 2 burndown](https://user-images.githubusercontent.com/48837914/169868941-49140920-7e12-4355-adf3-431f8382bea4.PNG)
+
 
 
 
@@ -134,12 +136,13 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Ürün Durumu**: 
  
 
-![icon](https://user-images.githubusercontent.com/48837914/169671125-d3cf5497-fcd5-4ecb-9af9-1905f4286d27.PNG)
+![icon](https://user-images.githubusercontent.com/48837914/169907015-584abb15-370a-4652-a91d-ce0edd93f978.jpeg)
 ![onboarding 1](https://user-images.githubusercontent.com/48837914/169671138-d7419bf3-65c8-416f-aea4-d1d04f2d606a.PNG)
 ![onboarding 2](https://user-images.githubusercontent.com/48837914/169671141-597091ab-e5b5-45b7-b902-97a8a6bb0a23.PNG)
 ![onboarding 3](https://user-images.githubusercontent.com/48837914/169671143-60d7bc87-3c60-4ead-8f7b-324c74dcb757.PNG)
 ![WhatsApp Image 2022-05-19 at 17 34 09](https://user-images.githubusercontent.com/48837914/169669066-a32fedee-3f4a-4d52-8379-bba19c9fe27b.jpeg)
 ![WhatsApp Image 2022-05-19 at 23 02 44](https://user-images.githubusercontent.com/48837914/169669077-0ee5cdc1-0f24-4dd2-966e-67f8a998839c.jpeg)
+![WhatsApp Image 2022-05-23 at 20 22 33](https://user-images.githubusercontent.com/48837914/169907217-65cc478e-ec79-4bb7-9f65-4599148c24d4.jpeg)
 ![WhatsApp Image 2022-05-19 at 23 02 45 (1)](https://user-images.githubusercontent.com/48837914/169669080-1229551c-f371-4756-961a-2de5bf359765.jpeg)
 ![WhatsApp Image 2022-05-19 at 23 02 45](https://user-images.githubusercontent.com/48837914/169669084-f2447c55-2cee-4403-894d-ea9466b4f938.jpeg)
 
@@ -148,9 +151,31 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 Alınan Kararlar: 
 
+-Renkler güncellenecek
+-İllüstrasyonlar değişecek 
+-Font değiştirilecek
+-Giriş yap ve Kayıt ol sayfalarında giriş yap ve kayıt ol kısmı silinip butonlardaki yazılar güncellenecek
+-Homepage chat kısmı güncellenecek
+-Profil kısmı UI olarak düzenlenecek
+
+
 Sprint Review katılımcıları:
 
+-Hümeyra Nur Yılmaz
+-Khadija Mammadova
+-Fatıma Büşra Bozdoğan
+-Mehmet Akif Arıcan
+-Muhammed Yasin Akçay
+
+
 **Sprint Retrospective**:
+
+Daily Scrum Chat Whatsapp üzerinden devam edilecek.
+Ekip üyelerinin kişisel hayatında var olan meşguliyetlere empati ve esneklikle yaklaşıldı.
+Tüm üyeler elinden geleni yaptı.
+Son sprinte yaklaşıldığı için temel olarak yapılması gereken herşey yapıldı.
+Son sprintte genel hatlar üzerinde eklemeler ve düzenlemeler yapılacak.
+Ek olarak yapılması düşünülen kısımlar sprint içinde yapılmaya çalışılacak.
 
 
 
