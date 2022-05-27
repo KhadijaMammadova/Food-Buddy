@@ -51,6 +51,7 @@ android {
         targetSdkVersion 31
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        testInstrumentationRunner "androidX.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -67,8 +68,12 @@ flutter {
 }
 
 dependencies {
+    androidTestImplementation "androidx.test:runner:1.1.1"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.1.1"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation platform('com.google.firebase:firebase-bom:29.3.1')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'androidx.multidex:multidex: 2.0.1'
 }
+
+apply plugin: 'com.google.gms.google-services'

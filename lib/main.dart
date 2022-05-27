@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
           return WelcomeScreen();
         },
       ),*/
-      home: isViewed != 0 ? OnboardingScreen() : WelcomeScreen(),
+      home: isViewed != 0 ? OnboardingScreen() : MainPage(),
     );
   }
 }
