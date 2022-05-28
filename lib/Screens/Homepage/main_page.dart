@@ -19,7 +19,7 @@ class _MainPage extends State<MainPage> {
   List pages = [
     MyRoute(
       iconData: Icons.chat,
-      page: ChatScreen(),
+      page: Chat(),
     ),
     MyRoute(
       iconData: Icons.home,
@@ -37,38 +37,49 @@ class _MainPage extends State<MainPage> {
     return SafeArea(
         top: false,
         child: Scaffold(
-          backgroundColor: Colors.white,
-          appBar: PreferredSize(
-              preferredSize: Size.fromHeight(34.0), // here the desired height
-              child: AppBar(
-                elevation: 0,
-                title: Text('Food Buddy'),
-                centerTitle: true,
-                backgroundColor: kPrimaryColor,
-                foregroundColor: Colors.white,
-                actions: [
-                  Padding(
-                    padding: const EdgeInsets.only(right: 0),
-                    child: TextButton.icon(
-                      onPressed: () {
-                        Navigator.pushAndRemoveUntil(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => WelcomeScreen()),
-                            (route) => false);
-                      },
-                      icon: Icon(Icons.logout),
-                      label: Text('Çıkış Yap'),
-                      style: TextButton.styleFrom(primary: Colors.white),
-                    ),
-                  ),
-                ],
-              )),
+          body: Container(
+            child: Container(
+              color: kPrimaryColor,
+              child: SafeArea(
+                child: NestedScrollView(headerSliverBuilder:
+                  (BuildContext context, bool innerBoxIsScrolled) {
+                return [
+                  SliverAppBar(
+                    floating: true,
+                    snap: true,
+                    elevation: 0,
+                    title: Text('Food Buddy'),
+                    //centerTitle: true,
+                    backgroundColor: kPrimaryColor,
+                    foregroundColor: Colors.white,
+                    actions: [
+                      Padding(
+                        padding: const EdgeInsets.only(right: 0),
+                        child: TextButton.icon(
+                          onPressed: () {
+                            Navigator.pushAndRemoveUntil(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => WelcomeScreen()),
+                                (route) => false);
+                          },
+                          icon: Icon(Icons.logout),
+                          label: Text('Çıkış Yap'),
+                          style: TextButton.styleFrom(primary: Colors.white),
+                        ),
+                      ),
+                    ],
+                  )
+                ];
+                        }, body: pages[_pageIndex].page,
+                        ),
+              ),
+            )),
           bottomNavigationBar: CurvedNavigationBar(
             index: 1,
             key: _bottomNavigationKey,
             height: 49.0,
-            backgroundColor: Colors.white,
+            backgroundColor: Color.fromARGB(255, 240, 233, 233),
             color: kPrimaryColor,
             animationCurve: Curves.easeInCubic,
             animationDuration: Duration(milliseconds: 300),
@@ -85,7 +96,6 @@ class _MainPage extends State<MainPage> {
               });
             },
           ),
-          body: pages[_pageIndex].page,
         ));
   }
 }
