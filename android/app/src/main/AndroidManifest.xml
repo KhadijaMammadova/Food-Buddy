@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.food_buddy">
    <application
-        android:label="food_buddy"
+        android:label="Food Buddy"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

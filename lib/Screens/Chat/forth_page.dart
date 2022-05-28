@@ -5,8 +5,8 @@ class ForthPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      backgroundColor: Color.fromARGB(255, 240, 233, 233),
     );
   }
 }

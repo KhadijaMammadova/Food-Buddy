@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class ThirdPage extends StatelessWidget {
-  const ThirdPage({ Key? key }) : super(key: key);
+class DurumlarPage extends StatelessWidget {
+  const DurumlarPage({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      backgroundColor: Color.fromARGB(255, 240, 233, 233),
     );
   }
 }
