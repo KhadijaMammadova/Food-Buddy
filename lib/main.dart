@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
 import 'package:food_buddy/Service/auth.dart';
+import 'package:food_buddy/core/services/locator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'Screens/Homepage/main_page.dart';
-import 'Screens/Homepage/restourants_screen.dart';
+import 'Screens/Homepage/homepage_restourants_screen.dart';
 import 'components/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:food_buddy/Screens/Onboarding/onboarding_screen.dart';
@@ -14,6 +15,7 @@ void main() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   isViewed = prefs.getInt('onboard');
   await Firebase.initializeApp();
+  setupLocators();
   runApp(MyApp());
 }
 
