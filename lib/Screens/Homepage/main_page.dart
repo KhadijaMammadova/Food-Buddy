@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/profile_page.dart';
-import 'package:food_buddy/Screens/Homepage/restourants_screen.dart';
+import 'package:food_buddy/Screens/Homepage/homepage_restourants_screen.dart';
 import 'package:food_buddy/Screens/Onboarding/onboarding_screen.dart';
 import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
 import '../../components/constants.dart';
@@ -23,7 +23,7 @@ class _MainPage extends State<MainPage> {
     ),
     MyRoute(
       iconData: Icons.home,
-      page: RestourantsPage(),
+      page: HomePage(),
     ),
     MyRoute(
       iconData: Icons.person,

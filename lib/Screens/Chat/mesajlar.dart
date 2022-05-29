@@ -59,7 +59,7 @@ class MesajlarPage extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (content) => ConversationPage()));
+                              builder: (content) => ConversationPage(userId: userId, conversationId: 'OofiKAMvYKUdgpy8vuMVYky4Kru1',)));
                     },
                   ))
               .toList(),
