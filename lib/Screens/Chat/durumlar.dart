@@ -6,7 +6,16 @@ class DurumlarPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 240, 233, 233),
+      backgroundColor: Colors.white,
+      body: Stack(
+        fit: StackFit.expand,
+        children: [
+          Image.asset(
+            "assets/images/2_404 Error.png",
+            fit: BoxFit.cover,
+          ),
+        ],
+      ),
     );
   }
 }

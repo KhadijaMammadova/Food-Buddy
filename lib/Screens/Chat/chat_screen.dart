@@ -6,6 +6,8 @@ import 'package:food_buddy/Screens/Chat/durumlar.dart';
 import 'package:food_buddy/Screens/Homepage/main_page.dart';
 import 'package:food_buddy/components/constants.dart';
 
+import '../Homepage/sorry.dart';
+
 class Chat extends StatefulWidget {
   const Chat({Key? key}) : super(key: key);
 
@@ -70,7 +72,14 @@ class _ChatState extends State<Chat> with SingleTickerProviderStateMixin {
               child: Icon(
                 Icons.message_rounded
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return SorryPage();
+                                },
+                              ),);
+              },
             )
           : null,
     );
