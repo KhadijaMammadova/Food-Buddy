@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/main_page.dart';
 import 'package:food_buddy/components/constants.dart';
 
-class SorryPage extends StatelessWidget {
+class NotFoundPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,7 +10,7 @@ class SorryPage extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            "assets/images/2_404 Error.png",
+            "assets/images/8_404 Error.png",
             fit: BoxFit.cover,
           ),
           Positioned(
