@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_buddy/Screens/Homepage/sorry.dart';
 class RecipeCard extends StatelessWidget {
   final String title;
   final String rating;
@@ -13,7 +14,7 @@ class RecipeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 22, vertical: 10),
+      margin: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
       width: MediaQuery.of(context).size.width,
       height: 180,
       decoration: BoxDecoration(
@@ -58,6 +59,15 @@ class RecipeCard extends StatelessWidget {
             alignment: Alignment.center,
           ),
           Align(
+            child: new InkWell(
+    onTap: () {
+      Navigator.push(context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return SorryPage();
+                                },
+                              ),);
+    },
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -97,10 +107,11 @@ class RecipeCard extends StatelessWidget {
                       SizedBox(width: 7),
                       Text(cookTime, style: TextStyle(color: Color.fromARGB(255, 236, 231, 231)),),
                     ],
+                    
                   ),
                 )
               ],
-            ),
+            )),
             alignment: Alignment.bottomLeft,
           ),
         ],
