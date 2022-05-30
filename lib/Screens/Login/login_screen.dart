@@ -7,7 +7,6 @@ import 'package:food_buddy/components/already_have_an_account_acheck.dart';
 import '../../Mİsafir_Girish/misafir.dart';
 import '../../components/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import '../Homepage/homepage_restourants_screen.dart';
 import '../Homepage/main_page.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -25,42 +24,20 @@ class _LoginPageState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 240, 233, 233),
       body: Container(
         width: double.infinity,
         height: size.height,
         child: Stack(
           alignment: Alignment.center,
           children: <Widget>[
-            Positioned(
-              top: 0,
-              left: 0,
-              child: Image.asset(
-                "assets/images/main_top.png",
-                width: size.width * 0.35,
-                color: kPrimaryColor,
-              ),
-            ),
-            Positioned(
-              bottom: 0,
-              right: 0,
-              child: Image.asset(
-                "assets/images/login_bottom.png",
-                width: size.width * 0.4,
-                color: Color.fromARGB(255, 201, 173, 206),
-              ),
-            ),
             SingleChildScrollView(
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                  Text(
-                    "GİRİŞ YAP",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold, color: kPrimaryColor),
-                  ),
                   SizedBox(height: size.height * 0.03),
-                  SvgPicture.asset(
-                    "assets/icons/login.svg",
+                  Image.asset(
+                    "assets/icons/girish.png",
                     height: size.height * 0.35,
                   ),
                   SizedBox(height: size.height * 0.03),
@@ -69,7 +46,7 @@ class _LoginPageState extends State<LoginScreen> {
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                     width: size.width * 0.8,
                     decoration: BoxDecoration(
-                      color: kPrimaryLightColor,
+                      color: kPrimaryColor,
                       borderRadius: BorderRadius.circular(29),
                     ),
                     child: TextField(
@@ -92,7 +69,7 @@ class _LoginPageState extends State<LoginScreen> {
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                     width: size.width * 0.8,
                     decoration: BoxDecoration(
-                      color: kPrimaryLightColor,
+                      color: kPrimaryColor,
                       borderRadius: BorderRadius.circular(29),
                     ),
                     child: TextField(
@@ -157,7 +134,7 @@ class _LoginPageState extends State<LoginScreen> {
                                   });
                                 },
                                 style: ElevatedButton.styleFrom(
-                                    primary: kPrimaryColor,
+                                    primary: Colors.black,
                                     padding: EdgeInsets.symmetric(
                                         horizontal: 40, vertical: 20),
                                     textStyle: TextStyle(
