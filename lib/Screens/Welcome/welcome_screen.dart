@@ -9,21 +9,13 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 240, 233, 233),
       body: Container(
         height: size.height,
         width: double.infinity,
         child: Stack(
           alignment: Alignment.center,
-          children: <Widget>[
-            Positioned(
-              top: 0,
-              left: 0,
-              child: Image.asset(
-                "assets/images/main_top.png",
-                width: size.width * 0.35,
-                color: kPrimaryColor,
-              ),
-            ),
+          children: <Widget>[           
             SingleChildScrollView(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -32,12 +24,12 @@ class WelcomeScreen extends StatelessWidget {
                     "HOŞ GELDİNİZ",
                     style: TextStyle(fontWeight: FontWeight.bold, color: kPrimaryColor),
                   ),
-                  SizedBox(height: size.height * 0.05),
-                  SvgPicture.asset(
-                    "assets/icons/chat.svg",
+                  //SizedBox(height: size.height * 0.05),
+                  Image.asset(
+                    "assets/icons/welcome.png",
                     height: size.height * 0.45,
                   ),
-                  SizedBox(height: size.height * 0.05),
+                  //SizedBox(height: size.height * 0.05),
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 10),
                     width: size.width * 0.8,
@@ -87,7 +79,7 @@ class WelcomeScreen extends StatelessWidget {
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                              primary: kPrimaryLightColor,
+                              primary: kPrimaryColor,
                               padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
                               textStyle: TextStyle(
                                   color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500)),
@@ -95,15 +87,6 @@ class WelcomeScreen extends StatelessWidget {
                     ),
                   ),
                 ],
-              ),
-            ),
-            Positioned(
-              bottom: 0,
-              right: 0,
-              child: Image.asset(
-                "assets/images/login_bottom.png",
-                width: size.width * 0.4,
-                color: kPrimaryLightColor,
               ),
             ),
           ],

@@ -14,7 +14,7 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final _controller = PageController();
   int _currentPage = 0;
-  List colors = [Color(0xffF4B571), Color(0xffFF94A0), Color(0xffA375CE)];
+  List colors = [Color.fromARGB(255, 250, 218, 186), Color.fromARGB(255, 248, 208, 212), Color.fromARGB(255, 228, 208, 247)];
 
   AnimatedContainer _buildDots({int? index}) {
     return AnimatedContainer(
@@ -67,7 +67,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         children: [
                           Padding(
                             padding:
-                                const EdgeInsets.only(left: 45.0, right: 20.0),
+                                const EdgeInsets.only(left: 30.0, right: 20.0),
                             child: Image.asset(
                               contents[i].image,
                               height: SizeConfig.blockV! * 30,
@@ -131,7 +131,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 ),
                               );
                             },
-                            child: Text("BAŞLAT"),
+                            child: Text("HEMEN BAŞLA"),
                             style: ElevatedButton.styleFrom(
                               primary: Colors.black,
                               shape: new RoundedRectangleBorder(
