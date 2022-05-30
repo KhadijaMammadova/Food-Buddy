@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Login/login_screen.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
+import '../../Mİsafir_Girish/misafir.dart';
 import '../../components/constants.dart';
 import '../Homepage/main_page.dart';
 import 'components/or_divider.dart';
@@ -203,6 +204,30 @@ class _SignUpScreen extends State<SignUpScreen> {
                         ),
                       );
                     },
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      GestureDetector(
+                        onTap: () {
+                           Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return MisafirPage();
+                                },
+                              ),
+                            );
+                        },
+                        child: Text(
+                          "Misafir kullanıcı",
+                          style: const TextStyle(
+                            color: kPrimaryColor,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      )
+                    ],
                   ),
                 ]))
           ],
