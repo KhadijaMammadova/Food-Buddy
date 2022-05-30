@@ -4,8 +4,10 @@ import 'package:food_buddy/Screens/Signup/components/or_divider.dart';
 import 'package:food_buddy/Screens/Signup/signup_screen.dart';
 import 'package:food_buddy/Service/auth.dart';
 import 'package:food_buddy/components/already_have_an_account_acheck.dart';
+import '../../Mİsafir_Girish/misafir.dart';
 import '../../components/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import '../Homepage/homepage_restourants_screen.dart';
 import '../Homepage/main_page.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -176,6 +178,30 @@ class _LoginPageState extends State<LoginScreen> {
                         ),
                       );
                     },
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      GestureDetector(
+                        onTap: () {
+                           Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return MisafirPage();
+                                },
+                              ),
+                            );
+                        },
+                        child: Text(
+                          "Misafir kullanıcı",
+                          style: const TextStyle(
+                            color: kPrimaryColor,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      )
+                    ],
                   ),
                 ]))
           ],

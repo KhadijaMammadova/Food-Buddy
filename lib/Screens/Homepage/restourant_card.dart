@@ -40,6 +40,15 @@ class RecipeCard extends StatelessWidget {
           fit: BoxFit.cover,
         ),
       ),
+      child: new InkWell(
+    onTap: () {
+      Navigator.push(context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return SorryPage();
+                                },
+                              ),);
+    },
       child: Stack(
         children: [
           Align(
@@ -59,16 +68,7 @@ class RecipeCard extends StatelessWidget {
             alignment: Alignment.center,
           ),
           Align(
-            child: new InkWell(
-    onTap: () {
-      Navigator.push(context,
-                              MaterialPageRoute(
-                                builder: (context) {
-                                  return SorryPage();
-                                },
-                              ),);
-    },
-            child: Row(
+              child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
@@ -111,10 +111,11 @@ class RecipeCard extends StatelessWidget {
                   ),
                 )
               ],
-            )),
+            
+            ),
             alignment: Alignment.bottomLeft,
-          ),
-        ],
+            ),
+          ]),
       ),
     );
   }
