@@ -22,6 +22,6 @@ List<OnboardingContents> contents = [
   OnboardingContents(
       title: "Onlarca restoran ve yeni arkadaşların burada.",
       image: "assets/images/excited.png",
-      desc: "Bu deneyimin bir parçası olmak için hemen başla.",
+      desc: "Sen de bu deneyimin bir parçası ol.",
   ),
 ];

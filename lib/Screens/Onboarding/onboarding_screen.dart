@@ -131,7 +131,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 ),
                               );
                             },
-                            child: Text("HEMEN BAŞLA"),
+                            child: Center(child: Text("HEMEN BAŞLA")),
                             style: ElevatedButton.styleFrom(
                               primary: Colors.black,
                               shape: new RoundedRectangleBorder(
