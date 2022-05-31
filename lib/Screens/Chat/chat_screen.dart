@@ -3,11 +3,9 @@ import 'package:food_buddy/Screens/Chat/camera.dart';
 import 'package:food_buddy/Screens/Chat/forth_page.dart';
 import 'package:food_buddy/Screens/Chat/mesajlar.dart';
 import 'package:food_buddy/Screens/Chat/durumlar.dart';
-import 'package:food_buddy/Screens/Homepage/main_page.dart';
 import 'package:food_buddy/Screens/Homepage/notfound.dart';
 import 'package:food_buddy/components/constants.dart';
 
-import '../Homepage/sorry.dart';
 
 class Chat extends StatefulWidget {
   const Chat({Key? key}) : super(key: key);

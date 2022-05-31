@@ -1,10 +1,11 @@
 import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/restourant_card.dart';
 import 'package:food_buddy/components/constants.dart';
 import 'package:food_buddy/models/restourant.dart';
 import 'package:food_buddy/models/restourant_api.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -34,7 +35,10 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 240, 233, 233),
         body: _isLoading
-            ? Center(child: CircularProgressIndicator(color: kPrimaryColor,))
+            ? Center(
+                child: CircularProgressIndicator(
+                color: kPrimaryColor,
+              ))
             : ListView.builder(
                 itemCount: _recipes.length,
                 itemBuilder: (context, index) {

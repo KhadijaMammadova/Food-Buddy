@@ -32,7 +32,7 @@ class NotFoundPage extends StatelessWidget {
                             );
               },
               child: Text(
-                "Go Home".toUpperCase(),
+                "ANA SAYFA".toUpperCase(),
                 style: TextStyle(color: Colors.white),
               ),
             ),

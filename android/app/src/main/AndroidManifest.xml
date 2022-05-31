@@ -25,7 +25,8 @@
                  Flutter's first frame. -->
             <meta-data
               android:name="io.flutter.embedding.android.SplashScreenDrawable"
-              android:resource="@drawable/launch_background"
+              android:resource="@drawable/splash_logo"
+              
               />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -37,5 +38,8 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4816740037086224~6666203247"/>
     </application>
 </manifest>
