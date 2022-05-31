@@ -12,7 +12,7 @@ class ForthPage extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            "assets/images/2_404 Error.png",
+            "assets/images/20_File Not Found.png",
             fit: BoxFit.cover,
           ),
         ],

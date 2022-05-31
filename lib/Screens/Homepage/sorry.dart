@@ -14,7 +14,7 @@ class SorryPage extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            "assets/images/2_404 Error.png",
+            "assets/images/6_Error (1).png",
             fit: BoxFit.contain,
           ),
         ],

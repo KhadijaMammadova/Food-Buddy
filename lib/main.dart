@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/main_page.dart';
+import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
 import 'package:food_buddy/core/services/locator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'Screens/Onboarding/onboarding_screen.dart';
 import 'components/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:food_buddy/Screens/Onboarding/onboarding_screen.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
 
 int? isViewed;
 void main() async {
@@ -32,7 +36,24 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: isViewed != 0 ? OnboardingScreen() : MainPage(),
+      home: isViewed != 0 ? OnboardingScreen() : AuthWrapper(),
+      //home: AuthWrapper(
+
+      //),
     );
+  }
+}
+
+class AuthWrapper extends StatelessWidget {
+  const AuthWrapper({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final firebaseUser = context.watch<User?>();
+
+    if (firebaseUser != null) {
+      return MainPage();
+    }
+    return WelcomeScreen();
   }
 }
