@@ -37,9 +37,6 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       home: isViewed != 0 ? OnboardingScreen() : AuthWrapper(),
-      //home: AuthWrapper(
-
-      //),
     );
   }
 }

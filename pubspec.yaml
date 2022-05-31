@@ -38,7 +38,6 @@ dependencies:
   google_fonts: ^2.3.0
   curved_navigation_bar: ^1.0.3
   shared_preferences: ^2.0.15
-  google_mobile_ads: ^1.2.0
   
 
 

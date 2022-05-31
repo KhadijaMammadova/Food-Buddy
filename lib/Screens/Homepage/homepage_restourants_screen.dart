@@ -4,7 +4,6 @@ import 'package:food_buddy/Screens/Homepage/restourant_card.dart';
 import 'package:food_buddy/components/constants.dart';
 import 'package:food_buddy/models/restourant.dart';
 import 'package:food_buddy/models/restourant_api.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 
 class HomePage extends StatefulWidget {
