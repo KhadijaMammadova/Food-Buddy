@@ -10,7 +10,7 @@ class OnboardingContents {
 
 List<OnboardingContents> contents = [
   OnboardingContents(
-      title: "Yalnız yemek yemekten sıkıldın mı ?",
+      title: "Yalnız yemek yemekten sıkıldın mı?",
       image: "assets/images/image1.png",
       desc: "Food Buddy yemek yerken sana eşlik edecek birilerini bulacağın harika bir uygulama.",
   ),

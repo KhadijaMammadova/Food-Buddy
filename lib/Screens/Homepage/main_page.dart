@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/profile_page.dart';
 import 'package:food_buddy/Screens/Homepage/homepage_restourants_screen.dart';
-import 'package:food_buddy/Screens/Onboarding/onboarding_screen.dart';
 import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
 import '../../components/constants.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
@@ -38,43 +37,45 @@ class _MainPage extends State<MainPage> {
         top: false,
         child: Scaffold(
           body: Container(
-            child: Container(
-              color: kPrimaryColor,
-              child: SafeArea(
-                child: NestedScrollView(headerSliverBuilder:
-                  (BuildContext context, bool innerBoxIsScrolled) {
-                return [
-                  SliverAppBar(
-                    floating: true,
-                    snap: true,
-                    elevation: 0,
-                    title: Text('Food Buddy'),
-                    //centerTitle: true,
-                    backgroundColor: kPrimaryColor,
-                    foregroundColor: Colors.white,
-                    actions: [
-                      Padding(
-                        padding: const EdgeInsets.only(right: 0),
-                        child: TextButton.icon(
-                          onPressed: () {
-                            Navigator.pushAndRemoveUntil(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => WelcomeScreen()),
-                                (route) => false);
-                          },
-                          icon: Icon(Icons.logout),
-                          label: Text('Çıkış Yap'),
-                          style: TextButton.styleFrom(primary: Colors.white),
+              child: Container(
+            color: kPrimaryColor,
+            child: SafeArea(
+              child: NestedScrollView(
+                headerSliverBuilder:
+                    (BuildContext context, bool innerBoxIsScrolled) {
+                  return [
+                    SliverAppBar(
+                      floating: true,
+                      snap: true,
+                      elevation: 0,
+                      title: Text('Food Buddy'),
+                      //centerTitle: true,
+                      backgroundColor: kPrimaryColor,
+                      foregroundColor: Colors.white,
+                      actions: [
+                        Padding(
+                          padding: const EdgeInsets.only(right: 0),
+                          child: TextButton.icon(
+                            onPressed: () {
+                              Navigator.pushAndRemoveUntil(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => WelcomeScreen()),
+                                  (route) => false);
+                            },
+                            icon: Icon(Icons.logout),
+                            label: Text('Çıkış Yap'),
+                            style: TextButton.styleFrom(primary: Colors.white),
+                          ),
                         ),
-                      ),
-                    ],
-                  )
-                ];
-                        }, body: pages[_pageIndex].page,
-                        ),
+                      ],
+                    )
+                  ];
+                },
+                body: pages[_pageIndex].page,
               ),
-            )),
+            ),
+          )),
           bottomNavigationBar: CurvedNavigationBar(
             index: 1,
             key: _bottomNavigationKey,
