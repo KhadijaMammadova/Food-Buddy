@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_buddy/components/constants.dart';
 
 class SorryPage extends StatelessWidget {
   @override
