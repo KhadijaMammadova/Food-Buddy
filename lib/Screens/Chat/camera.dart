@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_buddy/components/constants.dart';
 
 class CameraPage extends StatelessWidget {
   const CameraPage({Key? key}) : super(key: key);
@@ -13,7 +12,7 @@ class CameraPage extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            "assets/images/2_404 Error.png",
+            "assets/images/21_No Camera Access.png",
             fit: BoxFit.cover,
           ),
         ],
