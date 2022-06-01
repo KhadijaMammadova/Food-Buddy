@@ -14,7 +14,7 @@ class NavBar extends StatelessWidget {
         children: [
           UserAccountsDrawerHeader(
             accountName: Text('İsim Soyisim'),
-            accountEmail: Text('kullanıcımaili@gmail.com'),
+            accountEmail: Text('örnekmail@gmail.com'),
             currentAccountPicture: CircleAvatar(
               backgroundColor: Colors.grey,
               child: ClipOval(

@@ -10,18 +10,22 @@ class ContactPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 240, 233, 233),
       appBar: AppBar(
-        title: Text('Food Buddy'),
+        title: Text('Food Buddy Canlı Destek'),
         backgroundColor: kPrimaryColor,
         elevation: 0,
       ),
-body: Center(
+      body: Center(
         child: RaisedButton(
+          splashColor: Colors.grey,
+          color: kPrimaryColor,
           onPressed: () async => await launch(
               "https://wa.me/${905528528098}?text=Merhaba. Food Buddy canlı destek."),
-          child: Text('Open Whatsapp'),
+          child: Text(
+            'Canlı Destek',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
       ),
     );
   }
-
 }
