@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: isViewed != 0 ? OnboardingScreen() : AuthWrapper(),
+      home: isViewed != 0 ? OnboardingScreen() : MainPage(),
     );
   }
 }

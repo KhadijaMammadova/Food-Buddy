@@ -69,7 +69,7 @@ class _ChatState extends State<Chat> with SingleTickerProviderStateMixin {
           ? FloatingActionButton(
               backgroundColor: kPrimaryColor,
               child: Icon(
-                Icons.message_rounded
+                Icons.search_rounded
               ),
               onPressed: () {
                 Navigator.push(context,

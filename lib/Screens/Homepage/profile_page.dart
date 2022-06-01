@@ -32,7 +32,7 @@ class _ProfilePage extends State<ProfilePage> {
                         backgroundColor: Colors.white,
                       ),
                       SizedBox(height: 10.0,),
-                      Text('Isim Soyisim',
+                      Text('Kullanıcı İsmi',
                       style: TextStyle(
                         color:Colors.white,
                         fontSize: 20.0,

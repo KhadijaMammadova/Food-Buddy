@@ -5,6 +5,7 @@ import 'package:food_buddy/Screens/Welcome/welcome_screen.dart';
 import '../../components/constants.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import '../Chat/chat_screen.dart';
+import '../NavBar/navbar.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -36,6 +37,7 @@ class _MainPage extends State<MainPage> {
     return SafeArea(
         top: false,
         child: Scaffold(
+          drawer: NavBar(),
           body: Container(
               child: Container(
             color: kPrimaryColor,
