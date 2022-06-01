@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:food_buddy/Screens/Signup/components/or_divider.dart';
 import 'package:food_buddy/Screens/Signup/signup_screen.dart';
 import 'package:food_buddy/Service/auth.dart';

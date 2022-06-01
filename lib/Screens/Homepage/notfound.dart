@@ -1,6 +1,7 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/main_page.dart';
-import 'package:food_buddy/components/constants.dart';
 
 class NotFoundPage extends StatelessWidget {
   @override
@@ -17,23 +18,27 @@ class NotFoundPage extends StatelessWidget {
             bottom: MediaQuery.of(context).size.height * 0.15,
             left: MediaQuery.of(context).size.width * 0.3,
             right: MediaQuery.of(context).size.width * 0.3,
-            child: FlatButton(
-              color: Colors.black,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(50)),
-              onPressed: () {
-                Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) {
-                                  return MainPage();
-                                },
-                              ),
-                            );
-              },
-              child: Text(
-                "ANA SAYFA".toUpperCase(),
-                style: TextStyle(color: Colors.white),
+            child: Center(
+              child: FlatButton(
+                color: Colors.black,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)),
+                onPressed: () {
+                  Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return MainPage();
+                                  },
+                                ),
+                              );
+                },
+                child: Center(
+                  child: Text(
+                    "ANA SAYFA".toUpperCase(),
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
               ),
             ),
           )

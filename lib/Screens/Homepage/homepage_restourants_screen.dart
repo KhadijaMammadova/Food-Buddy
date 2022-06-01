@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:food_buddy/Screens/Homepage/restourant_card.dart';
 import 'package:food_buddy/components/constants.dart';

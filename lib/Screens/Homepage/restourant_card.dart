@@ -42,6 +42,12 @@ class RecipeCard extends StatelessWidget {
       ),
       child: new InkWell(
     onTap: () {
+      ScaffoldMessenger.of(context)
+                                        .showSnackBar(SnackBar(
+                                      content: Text(
+                                          "Bu restoranı favorilerine ekleyenleri burada görebilir, iletişime geçmek için mesajlar sayfasında kullanıcı isimlerini aratabilirsiniz."),
+                                      backgroundColor: Colors.grey[600],
+                                    ));
       Navigator.push(context,
                               MaterialPageRoute(
                                 builder: (context) {

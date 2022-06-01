@@ -1,16 +1,9 @@
-//import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AuthService {
   final FirebaseAuth firebaseAuth = FirebaseAuth.instance;
-  //final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  /*/çıkış yap fonksiyonu
-  signOut() async {
-    return await _auth.signOut();
-  }*/
 
   //kayıt ol fonksiyonu
   Future<User?> register(String email, String password, String username,
