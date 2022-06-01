@@ -32,11 +32,11 @@ class NavBar extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(
-              Icons.account_box_rounded,
+              Icons.question_answer_rounded,
               color: kPrimaryColor,
             ),
             title: Text(
-              'Bize ulaş',
+              'Bize ulaşın/Canlı Destek',
               style: TextStyle(color: kPrimaryColor),
             ),
             onTap: () {

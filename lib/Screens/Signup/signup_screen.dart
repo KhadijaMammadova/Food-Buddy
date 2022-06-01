@@ -5,7 +5,6 @@ import '../../Mİsafir_Girish/misafir.dart';
 import '../../components/constants.dart';
 import '../Homepage/main_page.dart';
 import 'components/or_divider.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:food_buddy/Service/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
