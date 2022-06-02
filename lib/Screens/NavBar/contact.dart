@@ -15,15 +15,21 @@ class ContactPage extends StatelessWidget {
         elevation: 0,
       ),
       body: Center(
-        child: RaisedButton(
-          splashColor: Colors.grey,
-          color: kPrimaryColor,
-          onPressed: () async => await launch(
-              "https://wa.me/${905528528098}?text=Merhaba. Food Buddy canlı destek."),
-          child: Text(
-            'Canlı Destek',
-            style: TextStyle(color: Colors.white),
-          ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            RaisedButton(
+              splashColor: Colors.grey,
+              color: kPrimaryColor,
+              onPressed: () async => await launch(
+                  "https://wa.me/?text=Merhaba. Food Buddy canlı destek."),
+              child: Text(
+                'Canlı Destek',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+            TextButton(onPressed: () {}, child: Text('foodbuddy.devs@gmail.com', style: TextStyle(color: kPrimaryColor, decoration: TextDecoration.underline)))
+          ],
         ),
       ),
     );

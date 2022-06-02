@@ -131,7 +131,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
               padding: EdgeInsets.symmetric(
                   horizontal: _minValue * 2, vertical: _minValue * 3),
               child: Text(
-                "Food Buddy ekibi olarak fikirlerinizi ve geri bildirimlerinizi önemsiyoruz. Uygulamamızı daha iyi hale getirmek için önerilerinizi bizimle paylaşmanız çok değerli.",
+                "Food Buddy ekibi olarak fikirlerinizi ve geri bildirimlerinizi önemsiyoruz. Uygulamamızı daha iyi hale getirmek için önerilerinizi bizimle paylaşmanız çok değerli. Aşağıdaki formu doldurarak geribildirim verebilirsiniz.",
                 style: Theme.of(context).textTheme.subtitle1,
               ),
             ),
@@ -142,7 +142,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Center(child: Text("Geri bildirim", style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: 20),)),
+                      Center(child: Text("GERİ BİLDİRİM FORMU", style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: 20),)),
                       SizedBox(
                         height: _minValue * 3,
                       ),
@@ -181,7 +181,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
                                     ScaffoldMessenger.of(context)
                                         .showSnackBar(SnackBar(
                                       content: Text(
-                                          "Geri bildiriminizin ekibimize ulaşması için bütün alanları doldurmanız gerekir."),
+                                          "Geri bildiriminizin eksiksiz bir şekilde ekibimize ulaşması için bütün alanları doldurmanız gerekir."),
                                       backgroundColor: Color.fromARGB(255, 231, 165, 164),
                                     ));
                                   } else {
