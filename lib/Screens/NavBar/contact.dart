@@ -22,7 +22,7 @@ class ContactPage extends StatelessWidget {
               splashColor: Colors.grey,
               color: kPrimaryColor,
               onPressed: () async => await launch(
-                  "https://wa.me/?text=Merhaba. Food Buddy canlı destek."),
+                   "https://wa.me/${905528528098}?text=Merhaba. Food Buddy canlı destek."),
               child: Text(
                 'Canlı Destek',
                 style: TextStyle(color: Colors.white),
