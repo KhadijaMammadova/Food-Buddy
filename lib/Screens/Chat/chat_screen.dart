@@ -75,7 +75,7 @@ class _ChatState extends State<Chat> with SingleTickerProviderStateMixin {
                 ScaffoldMessenger.of(context)
                                         .showSnackBar(SnackBar(
                                       content: Text(
-                                          "Favorilediğiniz restoranlara gidecek olan kişileri buradan bulup iletişime geçebilirsiniz."),
+                                          "Favorilediğiniz restoranlara gidecek olan kişileri buradan bulup iletişime geçebileceksiniz."),
                                       backgroundColor: Colors.grey[600],
                                     ));
                 Navigator.push(context,
