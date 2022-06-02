@@ -46,8 +46,7 @@ class RecipeCard extends StatelessWidget {
                                         .showSnackBar(SnackBar(
                                       content: Text(
                                           "Bu restoranı favorilerine ekleyenleri burada görebilir, iletişime geçmek için mesajlar sayfasında kullanıcı isimlerini aratabilirsiniz."),
-                                      backgroundColor: Colors.grey[600],
-                                    ));
+                                      backgroundColor: Color.fromARGB(255, 241, 201, 127)                                    ));
       Navigator.push(context,
                               MaterialPageRoute(
                                 builder: (context) {
