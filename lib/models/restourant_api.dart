@@ -8,7 +8,7 @@ class RecipeApi {
         {"limit": "24", "start": "0", "tag": "list.recipe.popular"});
 
     final response = await http.get(uri, headers: {
-      'X-RapidAPI-Key': 'd76f5f4cc8msh945bc09aaa800b7p1baa40jsnf9376addb9c1',
+      'X-RapidAPI-Key': '2f9dc2f384msha4526f56d797030p1c6c48jsn72dce14aca0b',
       "x-rapidapi-host": "yummly2.p.rapidapi.com",
       "useQueryString": "true"
     });
