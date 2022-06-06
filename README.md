@@ -228,7 +228,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 **Sprint Review**: 
  -Sprint hedeflerine ulaştı ve ürün planlandığı gibi tamamlandı.
 
-   **Alınan Kararlar**: 
+   ###**Alınan Kararlar**: 
 
 -Renkler güncellenecek
 -İllüstrasyonlar değişecek 
@@ -238,7 +238,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 -Profil kısmı UI olarak düzenlenecek
 
 
-  **Sprint Review katılımcıları**:
+  ###**Sprint Review katılımcıları**:
 
 -Hümeyra Nur Yılmaz
 -Khadija Mammadova
@@ -247,7 +247,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 -Muhammed Yasin Akçay
 
 
-**Sprint Retrospective**:
+###**Sprint Retrospective**:
 
 Daily Scrum Chat Whatsapp üzerinden devam edilecek.
 Ekip üyelerinin kişisel hayatında var olan meşguliyetlere empati ve esneklikle yaklaşıldı.
