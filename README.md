@@ -186,7 +186,7 @@ Sprint Review katılımcıları:
 # Sprint 3
 
 - **Sprint Başlangıç Toplantısı**: 
-- Map Screen Page in yapılmamasına karar verildi.
+- Map Screen Page in iptal edilmesine karar verildi.
 - Splash Screen, Preliminary Profile Creation Page sayfalarının ve Messages Screen Pages tamamlanmasına karar verildi.
 - Tasarımda değişiklikler yapılacak.
 
@@ -315,7 +315,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
  - Daha detaylı ve uygun API bulunacak.
  - Profile page geliştirilecek.
- - Restoran seçin özelliği eklenecek.
+ - Restoran seçme özelliği eklenecek.
  
  
 
@@ -339,7 +339,7 @@ Neler İyi Gitti?
 
 Neleri daha iyi yapabilirdik ?
 
-- Flutter konusunda eksiklikler ,zaman ve yanlış görev dağılımından dolayı Hatice çok fazla çalıştı .Daha eşit ve adaletli bir görev dağılımı yapabilirdik.
+- Flutter konusunda eksiklikler, zaman ve yanlış görev dağılımından dolayı Hatice çok fazla çalıştı. Daha eşit ve adaletli bir görev dağılımı yapabilirdik.
 
 
 Hangi sorunlar ile karşılaştık ?
