@@ -224,42 +224,63 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Ürün Durumu**: 
  
 - App Icon:
+
 ![WhatsApp Image 2022-06-05 at 22 54 27](https://user-images.githubusercontent.com/48837914/172135530-b14a92a2-7312-4542-be4e-343c4da1cea6.jpeg)
 
 - Splash Screen:
+
+
 ![WhatsApp Image 2022-06-05 at 21 33 50](https://user-images.githubusercontent.com/48837914/172135573-0f9e93ec-6d16-4bfe-9636-16096ce5cefb.jpeg)
 
 - Onboardings:
+
+
 ![WhatsApp Image 2022-06-05 at 21 33 02](https://user-images.githubusercontent.com/48837914/172135591-4f73fd7e-7d01-48e3-b0df-2335c1d47b2c.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 33 02 (1)](https://user-images.githubusercontent.com/48837914/172135605-4afa9e33-8107-4f82-9942-7d787ae64485.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 33 01](https://user-images.githubusercontent.com/48837914/172135611-2a6e9561-bff0-4baf-9de5-51136e01cd9e.jpeg)
 
 - Welcome Page:
+
+
 ![WhatsApp Image 2022-06-05 at 21 33 01 (1)](https://user-images.githubusercontent.com/48837914/172135618-d9414101-27cf-43a2-854c-f33f4e1aafe3.jpeg)
 
 - Log In Page:
+
+
 ![WhatsApp Image 2022-06-05 at 21 33 00](https://user-images.githubusercontent.com/48837914/172135627-5fb91e56-5962-46d5-9ce7-ff8788349c5e.jpeg)
 
 - Sign Up Page:
+
+
 ![WhatsApp Image 2022-06-05 at 21 33 00 (1)](https://user-images.githubusercontent.com/48837914/172135634-fce6bce1-ba66-445e-8a90-1d235905121b.jpeg)
 
 - Preliminary Using Page:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 58](https://user-images.githubusercontent.com/48837914/172135643-60ba7ec5-79b9-45ba-a35c-6dd3ea32aa8c.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 57](https://user-images.githubusercontent.com/48837914/172135647-0821ba71-af50-4503-beb4-1190da556edf.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 56](https://user-images.githubusercontent.com/48837914/172135655-65d28187-d70b-4a47-bd6d-b74c1bf767ef.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 55](https://user-images.githubusercontent.com/48837914/172135661-74ecb657-0d45-47cd-a6d3-f196d2c50f52.jpeg)
 
 - Edge Case / Error State Page
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 54 (1)](https://user-images.githubusercontent.com/48837914/172135665-6cc065fa-c195-4ad6-af30-a89074ba11cc.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 53 (1)](https://user-images.githubusercontent.com/48837914/172135672-94ba4a8a-7f08-4e81-b8a8-59d037b81bad.jpeg)
 
 - Loading görünümü:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 53 (2)](https://user-images.githubusercontent.com/48837914/172135676-16825187-73f7-4dcb-9d87-4805f06e6a88.jpeg)
 
 - Profile Page:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 52](https://user-images.githubusercontent.com/48837914/172135687-9e08bb2b-18e2-408b-bbd6-ba95182dcc82.jpeg)
 
 - Message Screen:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 52 (1)](https://user-images.githubusercontent.com/48837914/172135697-b44dd628-12cb-4848-a2f2-39e25ae2d8dc.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 52 (2)](https://user-images.githubusercontent.com/48837914/172135722-c0e225b1-4e9d-4190-bcfc-16c1d54b247f.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 51 (1)](https://user-images.githubusercontent.com/48837914/172135742-74a723be-071a-4e2a-ac2a-1d5be4b0ee26.jpeg)
@@ -267,13 +288,19 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![WhatsApp Image 2022-06-05 at 21 32 47](https://user-images.githubusercontent.com/48837914/172135772-351bf4c2-9ab4-4eca-aba5-4b1cf6f187c5.jpeg)
 
 - Restoran seçim sayfası:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 51](https://user-images.githubusercontent.com/48837914/172135729-b9db04fe-639a-41b1-a006-735365d68c7c.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 46](https://user-images.githubusercontent.com/48837914/172135787-fbca0860-9dbd-4911-a075-95bf44c1c94e.jpeg)
 
 - Home Page:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 47 (1)](https://user-images.githubusercontent.com/48837914/172135781-aadfd7f3-47ef-469b-8044-12a6dfb75f71.jpeg)
 
 - Geri Bildirim ve Canlı Destek:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 45](https://user-images.githubusercontent.com/48837914/172135792-c6f02164-d2d0-4b40-be88-e1baaa511868.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 45 (1)](https://user-images.githubusercontent.com/48837914/172135801-f84aa2f7-4aff-4b31-bb20-606224c621c3.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 44](https://user-images.githubusercontent.com/48837914/172135811-807eeacc-082b-4433-86ca-f0f932296507.jpeg)
