@@ -309,5 +309,7 @@ Hangi sorunlar ile karşılaştık ?
  - Fatıma Büşra Bozdoğan: Öğrendiğim bilgiler doğrultusunda scrum metodunu kullanarak bir projenin nasıl yönetilmesi gerektiğini ve nasıl yönetileceğini uygulamalı bir şekilde öğrendim.Başlangıca göre flutter konusunda kendimi geliştirdim.
 
 
+## **Diğer Notlar**:
+
 
 
