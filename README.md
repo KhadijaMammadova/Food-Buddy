@@ -356,9 +356,9 @@ Hangi sorunlar ile karşılaştık ?
  
  - Muhammed Yasin Akçay: Takım olarak bir proje yönetiminin çok zor bir iş olduğunu ve bu zorluklarla nasıl başa çıkılacağını öğrendim.
 
- - Mehmet Akif Arıcan: Sprint nasıl hazırlandığını ve uygulama temellerinin nasıl oluşturulduğunu öğrendim.
+ - Mehmet Akif Arıcan: Sprint nasıl hazırlandığını, uygulama temellerinin nasıl oluşturulduğunu öğrendim.
  
- - Hümeyra Nur Yılmaz: Proje başlangucuna göre flutter ve tasarım konusunda kendimi geliştirdim.
+ - Hümeyra Nur Yılmaz: Proje başlangıcına göre flutter ve tasarım konusunda kendimi geliştirdim.
  
  - Fatıma Büşra Bozdoğan: Öğrendiğim bilgiler doğrultusunda scrum metodunu kullanarak bir projenin nasıl yönetilmesi gerektiğini ve nasıl yönetileceğini uygulamalı bir şekilde öğrendim.Başlangıca göre flutter konusunda kendimi geliştirdim.
 
