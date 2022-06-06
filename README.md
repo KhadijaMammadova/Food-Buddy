@@ -182,13 +182,14 @@ Ek olarak yapılması düşünülen kısımlar sprint içinde yapılmaya çalı�
 
 ---
 
+
 # Sprint 3
 
 - **Sprint Başlangıç Toplantısı**: 
-- Login page ve sign up page in progress olarak güncellendi.
-- Login page ve signup page için Edge case/Error state sayfaları yapılacak.
-- Bu sprintte UI Tasarım , Splash Screen ve Intro Pages tamamlanmasına karar verildi.
-- UI tasarım tamamlandıktan sonra Intro Page lerin 3 sayfa olmasına ve 3 kişi arasında paylaşılmasına karar verildi.
+- Map Screen Page in yapılmamasına karar verildi.
+- Splash Screen, Preliminary Profile Creation Page sayfalarının ve Messages Screen Pages tamamlanmasına karar verildi.
+- Tasarımda değişiklikler yapılacak.
+
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
@@ -226,32 +227,45 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 **Sprint Review**: 
- -Sprint hedeflerine ulaştı ve ürün planlandığı gibi tamamlandı.
+ -Sprint hedeflerine ulaştı ve ürün planlandığı gibi geliştirildi.
 
-   ###**Alınan Kararlar**: 
+ Alınan Kararlar: 
 
--Renkler güncellenecek
--İllüstrasyonlar değişecek 
--Font değiştirilecek
--Giriş yap ve Kayıt ol sayfalarında giriş yap ve kayıt ol kısmı silinip butonlardaki yazılar güncellenecek
--Homepage chat kısmı güncellenecek
--Profil kısmı UI olarak düzenlenecek
+ -Daha detaylı ve uygun API bulunacak.
+ -Profile page geliştirilecek.
+ 
+ 
 
+ Sprint Review katılımcıları:
 
-  ## **Sprint Review katılımcıları**:
-
--Hümeyra Nur Yılmaz
--Khadija Mammadova
--Fatıma Büşra Bozdoğan
--Mehmet Akif Arıcan
--Muhammed Yasin Akçay
+ -Hümeyra Nur Yılmaz
+ -Khadija Mammadova
+ -Fatıma Büşra Bozdoğan
+ -Mehmet Akif Arıcan
+ -Muhammed Yasin Akçay
 
 
-## **Sprint Retrospective**:
+**Sprint Retrospective**: Öncelikle 3 soru üzerinden durum değerlendirmesi yaptık.Sonrasında son sprintte olduğumuz için 3 sprint boyunca bu projenin takım olarak bizleri nasıl geliştirdiğini konuştuk.
 
-Daily Scrum Chat Whatsapp üzerinden devam edilecek.
-Ekip üyelerinin kişisel hayatında var olan meşguliyetlere empati ve esneklikle yaklaşıldı.
-Tüm üyeler elinden geleni yaptı.
-Son sprinte yaklaşıldığı için temel olarak yapılması gereken herşey yapıldı.
-Son sprintte genel hatlar üzerinde eklemeler ve düzenlemeler yapılacak.
-Ek olarak yapılması düşünülen kısımlar sprint içinde yapılmaya çalışılacak.
+Neler İyi Gitti?
+
+Takım olarak iletişim konusunda zorluk çekmedik.
+Mesage Screen dışında tüm görevler tamamlandı.
+Ürün yetiştirebildiğimiz kadarıyla tamamlandı.
+
+
+Neleri daha iyi yapabilirdik ?
+
+Flutter konusunda eksiklikler ,zaman ve yanlış görev dağılımından dolayı Hatice çok fazla çalıştı .Daha eşit ve adaletli bir görev dağılımı yapabilirdik.
+
+
+Hangi sorunlar ile karşılaştık ?
+
+Kod yazımında teknik sorunlar ile karşılaştık.
+Takım olarak Github kullanımında zorlandık.
+Ücretli olmasından dolayı API bulmada sorun yaşadık.
+Görev dağılımından dolayı zaman ve iş yükü sorunu oldu.
+
+
+
+
