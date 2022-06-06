@@ -25,6 +25,7 @@ Team-404
 - Mesajlaşma
 - Uygun restoran,kafe vb. mekanları gösterme
 - Kafe ve restoran puanlarını gösterme
+- [Ürün Özellikleri](https://docs.google.com/document/d/1uSKepikUHAY1If1C5wHw4CasO4FiZ6WdRDg7yR_-ax4/edit?usp=sharing)
 
 
 ## Hedef Kitle
