@@ -71,24 +71,24 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 **Sprint Review**: 
- -Sprint Review Katılımcıları
+  Sprint Review Katılımcıları
 
--Khadija Mammadova
--Fatıma Büşra Bozdoğan
--Mehmet Akif Arıcan
+- Khadija Mammadova
+- Fatıma Büşra Bozdoğan
+- Mehmet Akif Arıcan
 
 Alınan Kararlar: 
 Bu sprintte fikir bulma aşaması, proje detayları/içeriği ve UX design bir hafta sürdüğü için ilk sprint backlogunda eklediğimiz/yapmayı planladığımız chat, lokasyon seçme ve giriş sayfalarını çalışmalarını bir sonraki sprinte aktarma kararı aldık. Proje yönetimi araçlarının kullanımını ve faydasını bu sprintte daha iyi anladığımız için ikinci sprintte ve daha sonrasında bu araçların kullanımına daha çok dikkat edeceğiz ve önemseyeceğiz. Uygulama sayfalarının kodlama sırası fonksiyonların basit olanından zor olana doğru gidecek şekilde planlanmıştır.
 
 **Sprint Retrospective**:
 
-Görev dağılımının ve zaman yönetiminin iyileştirilmesine yönelik kararlar verildi.
-Daily Scrum toplantıları için farklı bir platform kullanılacaktır
-Daily Scrum için hergün kısa meetler yapılacak ve çıktılar sunulacak.
-Clickup veya Asanada hafta başında beraberce belirlenen görevler kişilere atanacak ve deadline'lar belirlenecek.
-Belirlenen deadline'da görevlerin yapılıp yapılmadığını ölçmek için çıktılar sunulacak ve takım performansı ölçülecek.
-User storyler, product backlog sprint başında yapılan takım toplantısında ayrıntılı şekilde hazırlanacak. 
-User storyler, ux ve ui detaylı şekilde hazırlanıp developer takımına teslim edilecek.
+- Görev dağılımının ve zaman yönetiminin iyileştirilmesine yönelik kararlar verildi.
+- Daily Scrum toplantıları için farklı bir platform kullanılacaktır
+- Daily Scrum için hergün kısa meetler yapılacak ve çıktılar sunulacak.
+- Clickup veya Asanada hafta başında beraberce belirlenen görevler kişilere atanacak ve deadline'lar belirlenecek.
+- Belirlenen deadline'da görevlerin yapılıp yapılmadığını ölçmek için çıktılar sunulacak ve takım performansı ölçülecek.
+- User storyler, product backlog sprint başında yapılan takım toplantısında ayrıntılı şekilde hazırlanacak. 
+- User storyler, ux ve ui detaylı şekilde hazırlanıp developer takımına teslim edilecek.
 
 ---
 
@@ -151,31 +151,31 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 Alınan Kararlar: 
 
--Renkler güncellenecek
--İllüstrasyonlar değişecek 
--Font değiştirilecek
--Giriş yap ve Kayıt ol sayfalarında giriş yap ve kayıt ol kısmı silinip butonlardaki yazılar güncellenecek
--Homepage chat kısmı güncellenecek
--Profil kısmı UI olarak düzenlenecek
+- Renkler güncellenecek
+- İllüstrasyonlar değişecek 
+- Font değiştirilecek
+- Giriş yap ve Kayıt ol sayfalarında giriş yap ve kayıt ol kısmı silinip butonlardaki yazılar güncellenecek
+- Homepage chat kısmı güncellenecek
+- Profil kısmı UI olarak düzenlenecek
 
 
 Sprint Review katılımcıları:
 
--Hümeyra Nur Yılmaz
--Khadija Mammadova
--Fatıma Büşra Bozdoğan
--Mehmet Akif Arıcan
--Muhammed Yasin Akçay
+- Hümeyra Nur Yılmaz
+- Khadija Mammadova
+- Fatıma Büşra Bozdoğan
+- Mehmet Akif Arıcan
+- Muhammed Yasin Akçay
 
 
 **Sprint Retrospective**:
 
-Daily Scrum Chat Whatsapp üzerinden devam edilecek.
-Ekip üyelerinin kişisel hayatında var olan meşguliyetlere empati ve esneklikle yaklaşıldı.
-Tüm üyeler elinden geleni yaptı.
-Son sprinte yaklaşıldığı için temel olarak yapılması gereken herşey yapıldı.
-Son sprintte genel hatlar üzerinde eklemeler ve düzenlemeler yapılacak.
-Ek olarak yapılması düşünülen kısımlar sprint içinde yapılmaya çalışılacak.
+- Daily Scrum Chat Whatsapp üzerinden devam edilecek.
+- Ekip üyelerinin kişisel hayatında var olan meşguliyetlere empati ve esneklikle yaklaşıldı.
+- Tüm üyeler elinden geleni yaptı.
+- Son sprinte yaklaşıldığı için temel olarak yapılması gereken herşey yapıldı.
+- Son sprintte genel hatlar üzerinde eklemeler ve düzenlemeler yapılacak.
+- Ek olarak yapılması düşünülen kısımlar sprint içinde yapılmaya çalışılacak.
 
 
 
@@ -224,15 +224,44 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Ürün Durumu**: 
  
 
+![WhatsApp Image 2022-06-05 at 22 54 27](https://user-images.githubusercontent.com/48837914/172135530-b14a92a2-7312-4542-be4e-343c4da1cea6.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 50](https://user-images.githubusercontent.com/48837914/172135573-0f9e93ec-6d16-4bfe-9636-16096ce5cefb.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 02](https://user-images.githubusercontent.com/48837914/172135591-4f73fd7e-7d01-48e3-b0df-2335c1d47b2c.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 02 (1)](https://user-images.githubusercontent.com/48837914/172135605-4afa9e33-8107-4f82-9942-7d787ae64485.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 01](https://user-images.githubusercontent.com/48837914/172135611-2a6e9561-bff0-4baf-9de5-51136e01cd9e.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 01 (1)](https://user-images.githubusercontent.com/48837914/172135618-d9414101-27cf-43a2-854c-f33f4e1aafe3.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 00](https://user-images.githubusercontent.com/48837914/172135627-5fb91e56-5962-46d5-9ce7-ff8788349c5e.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 00 (1)](https://user-images.githubusercontent.com/48837914/172135634-fce6bce1-ba66-445e-8a90-1d235905121b.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 58](https://user-images.githubusercontent.com/48837914/172135643-60ba7ec5-79b9-45ba-a35c-6dd3ea32aa8c.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 57](https://user-images.githubusercontent.com/48837914/172135647-0821ba71-af50-4503-beb4-1190da556edf.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 56](https://user-images.githubusercontent.com/48837914/172135655-65d28187-d70b-4a47-bd6d-b74c1bf767ef.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 55](https://user-images.githubusercontent.com/48837914/172135661-74ecb657-0d45-47cd-a6d3-f196d2c50f52.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 54 (1)](https://user-images.githubusercontent.com/48837914/172135665-6cc065fa-c195-4ad6-af30-a89074ba11cc.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 53 (1)](https://user-images.githubusercontent.com/48837914/172135672-94ba4a8a-7f08-4e81-b8a8-59d037b81bad.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 53 (2)](https://user-images.githubusercontent.com/48837914/172135676-16825187-73f7-4dcb-9d87-4805f06e6a88.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 52](https://user-images.githubusercontent.com/48837914/172135687-9e08bb2b-18e2-408b-bbd6-ba95182dcc82.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 52 (1)](https://user-images.githubusercontent.com/48837914/172135697-b44dd628-12cb-4848-a2f2-39e25ae2d8dc.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 52 (2)](https://user-images.githubusercontent.com/48837914/172135722-c0e225b1-4e9d-4190-bcfc-16c1d54b247f.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 51](https://user-images.githubusercontent.com/48837914/172135729-b9db04fe-639a-41b1-a006-735365d68c7c.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 51 (1)](https://user-images.githubusercontent.com/48837914/172135742-74a723be-071a-4e2a-ac2a-1d5be4b0ee26.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 50](https://user-images.githubusercontent.com/48837914/172135767-2da9a8ef-458b-43f3-b4bd-a4208fb9eea5.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 47](https://user-images.githubusercontent.com/48837914/172135772-351bf4c2-9ab4-4eca-aba5-4b1cf6f187c5.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 47 (1)](https://user-images.githubusercontent.com/48837914/172135781-aadfd7f3-47ef-469b-8044-12a6dfb75f71.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 46](https://user-images.githubusercontent.com/48837914/172135787-fbca0860-9dbd-4911-a075-95bf44c1c94e.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 45](https://user-images.githubusercontent.com/48837914/172135792-c6f02164-d2d0-4b40-be88-e1baaa511868.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 45 (1)](https://user-images.githubusercontent.com/48837914/172135801-f84aa2f7-4aff-4b31-bb20-606224c621c3.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 44](https://user-images.githubusercontent.com/48837914/172135811-807eeacc-082b-4433-86ca-f0f932296507.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 44 (1)](https://user-images.githubusercontent.com/48837914/172135819-7216d421-9823-4997-b848-ea87d181c7f5.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 43](https://user-images.githubusercontent.com/48837914/172135840-3040cb10-de5e-4f58-ac56-b505d3496871.jpeg)
 
 
 **Sprint Review**: 
- -Sprint hedeflerine ulaştı ve ürün planlandığı gibi geliştirildi.
+ - Sprint hedeflerine ulaştı ve ürün planlandığı gibi geliştirildi.
 
  Alınan Kararlar: 
 
- -Daha detaylı ve uygun API bulunacak.
- -Profile page geliştirilecek.
+ - Daha detaylı ve uygun API bulunacak.
+ - Profile page geliştirilecek.
  
  
 
@@ -265,6 +294,19 @@ Hangi sorunlar ile karşılaştık ?
 - Takım olarak Github kullanımında zorlandık.
 - Ücretli olmasından dolayı API bulmada sorun yaşadık.
 - Görev dağılımından dolayı zaman ve iş yükü sorunu oldu.
+
+
+ Bu proje sizi nasıl geliştirdi ? 
+ 
+ - Khadija Mammadova: Flutter konusunda kendimi geliştirdim.
+ 
+ - Muhammed Yasin Akçay: Takım olarak bir proje yönetiminin çok zor bir iş olduğunu ve bu zorluklarla nasıl başa çıkılacağını öğrendim.
+
+ - Mehmet Akif Arıcan: Sprint nasıl hazırlandığını ve uygulama temellerinin nasıl oluşturulduğunu öğrendim.
+ 
+ - Hümeyra Nur Yılmaz: Proje başlangucuna göre flutter ve tasarım konusunda kendimi geliştirdim.
+ 
+ - Fatıma Büşra Bozdoğan: Öğrendiğim bilgiler doğrultusunda scrum metodunu kullanarak bir projenin nasıl yönetilmesi gerektiğini ve nasıl yönetileceğini uygulamalı bir şekilde öğrendim.Başlangıca göre flutter konusunda kendimi geliştirdim.
 
 
 
