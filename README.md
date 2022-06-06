@@ -238,33 +238,33 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
  Sprint Review katılımcıları:
 
- -Hümeyra Nur Yılmaz
- -Khadija Mammadova
- -Fatıma Büşra Bozdoğan
- -Mehmet Akif Arıcan
- -Muhammed Yasin Akçay
+ - Hümeyra Nur Yılmaz
+ - Khadija Mammadova
+ - Fatıma Büşra Bozdoğan
+ - Mehmet Akif Arıcan
+ - Muhammed Yasin Akçay
 
 
 **Sprint Retrospective**: Öncelikle 3 soru üzerinden durum değerlendirmesi yaptık.Sonrasında son sprintte olduğumuz için 3 sprint boyunca bu projenin takım olarak bizleri nasıl geliştirdiğini konuştuk.
 
 Neler İyi Gitti?
 
-Takım olarak iletişim konusunda zorluk çekmedik.
-Mesage Screen dışında tüm görevler tamamlandı.
-Ürün yetiştirebildiğimiz kadarıyla tamamlandı.
+- Takım olarak iletişim konusunda zorluk çekmedik.
+- Mesage Screen dışında tüm görevler tamamlandı.
+- Ürün yetiştirebildiğimiz kadarıyla tamamlandı.
 
 
 Neleri daha iyi yapabilirdik ?
 
-Flutter konusunda eksiklikler ,zaman ve yanlış görev dağılımından dolayı Hatice çok fazla çalıştı .Daha eşit ve adaletli bir görev dağılımı yapabilirdik.
+- Flutter konusunda eksiklikler ,zaman ve yanlış görev dağılımından dolayı Hatice çok fazla çalıştı .Daha eşit ve adaletli bir görev dağılımı yapabilirdik.
 
 
 Hangi sorunlar ile karşılaştık ?
 
-Kod yazımında teknik sorunlar ile karşılaştık.
-Takım olarak Github kullanımında zorlandık.
-Ücretli olmasından dolayı API bulmada sorun yaşadık.
-Görev dağılımından dolayı zaman ve iş yükü sorunu oldu.
+- Kod yazımında teknik sorunlar ile karşılaştık.
+- Takım olarak Github kullanımında zorlandık.
+- Ücretli olmasından dolayı API bulmada sorun yaşadık.
+- Görev dağılımından dolayı zaman ve iş yükü sorunu oldu.
 
 
 
